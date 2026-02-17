@@ -409,7 +409,7 @@ impl<SPEC: Into<SpecId> + Clone> Cfg for CfgEnv<SPEC> {
 
     fn max_code_size(&self) -> usize {
         self.limit_contract_code_size
-            .unwrap_or(if self.spec.clone().into().is_enabled_in(SpecId::PRAGUE) {
+            .unwrap_or(if self.spec.clone().into().is_enabled_in(SpecId::OSAKA) {
                 eip7907::MAX_CODE_SIZE
             } else {
                 eip170::MAX_CODE_SIZE
@@ -422,7 +422,7 @@ impl<SPEC: Into<SpecId> + Clone> Cfg for CfgEnv<SPEC> {
                 self.limit_contract_code_size
                     .map(|size| size.saturating_mul(2))
             })
-            .unwrap_or(if self.spec.clone().into().is_enabled_in(SpecId::PRAGUE) {
+            .unwrap_or(if self.spec.clone().into().is_enabled_in(SpecId::OSAKA) {
                 eip7907::MAX_INITCODE_SIZE
             } else {
                 eip3860::MAX_INITCODE_SIZE
