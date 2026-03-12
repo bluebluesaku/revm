@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [17.0.1](https://github.com/bluebluesaku/revm/compare/revm-handler-v17.0.0...revm-handler-v17.0.1) - 2026-03-12
+
+### Other
+
+- *(handler)* rename misleading `underflow` variable to `success` ([#3486](https://github.com/bluebluesaku/revm/pull/3486))
+
 ## [17.0.0](https://github.com/bluealloy/revm/compare/revm-handler-v16.0.0...revm-handler-v17.0.0) - 2026-03-04
 
 ### Other

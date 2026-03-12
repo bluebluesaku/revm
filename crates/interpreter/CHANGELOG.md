@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [34.0.1](https://github.com/bluebluesaku/revm/compare/revm-interpreter-v34.0.0...revm-interpreter-v34.0.1) - 2026-03-12
+
+### Fixed
+
+- *(interpreter)* swap/swapn/exchange report StackOverflow on underflow ([#3483](https://github.com/bluebluesaku/revm/pull/3483))
+
+### Other
+
+- simplify stack dup ([#3478](https://github.com/bluebluesaku/revm/pull/3478))
+
 ## [34.0.0](https://github.com/bluealloy/revm/compare/revm-interpreter-v33.0.0...revm-interpreter-v34.0.0) - 2026-03-04
 
 ### Other
