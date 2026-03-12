@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [14.0.0](https://github.com/bluebluesaku/revm/compare/revme-v13.0.0...revme-v14.0.0) - 2026-03-12
+
+### Added
+
+- *(revme)* list all failed tests at the end with --keep-going ([#3491](https://github.com/bluebluesaku/revm/pull/3491))
+
+### Other
+
+- *(revme)* use alloy-trie instead of triehash ([#3488](https://github.com/bluebluesaku/revm/pull/3488))
+
 ## [13.0.0](https://github.com/bluealloy/revm/compare/revme-v12.0.0...revme-v13.0.0) - 2026-03-04
 
 ### Other
