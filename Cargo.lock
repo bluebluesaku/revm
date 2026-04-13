@@ -2974,7 +2974,7 @@ checksum = "d6790f58c7ff633d8771f42965289203411a5e5c68388703c06e14f24770b41e"
 
 [[package]]
 name = "op-revm"
-version = "18.0.0"
+version = "18.0.1"
 dependencies = [
  "alloy-primitives",
  "alloy-sol-types",
@@ -3600,7 +3600,7 @@ dependencies = [
 
 [[package]]
 name = "revm"
-version = "37.0.0"
+version = "37.0.1"
 dependencies = [
  "revm-bytecode",
  "revm-context",
@@ -3703,7 +3703,7 @@ dependencies = [
 
 [[package]]
 name = "revm-handler"
-version = "18.0.0"
+version = "18.0.1"
 dependencies = [
  "alloy-signer",
  "alloy-signer-local",
@@ -3723,7 +3723,7 @@ dependencies = [
 
 [[package]]
 name = "revm-inspector"
-version = "18.0.0"
+version = "18.0.1"
 dependencies = [
  "auto_impl",
  "either",
@@ -3740,7 +3740,7 @@ dependencies = [
 
 [[package]]
 name = "revm-interpreter"
-version = "35.0.0"
+version = "35.0.1"
 dependencies = [
  "revm-bytecode",
  "revm-context-interface",
@@ -3820,7 +3820,7 @@ dependencies = [
 
 [[package]]
 name = "revme"
-version = "14.0.0"
+version = "14.0.1"
 dependencies = [
  "alloy-rlp",
  "alloy-sol-types",
